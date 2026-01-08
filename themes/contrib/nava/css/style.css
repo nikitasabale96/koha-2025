@@ -2875,7 +2875,7 @@ hr.line-double {
 /* desktop */
 @media (min-width: 1024px) {
   .site-brand img {
-    max-height: 60px;
+    max-height: 100px;
   }
   /* Header main menu */
   .region-primary-menu {

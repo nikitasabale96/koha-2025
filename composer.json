@@ -19,6 +19,8 @@
         "drupal/admin_toolbar": "^3.6",
         "drupal/advagg": "^6.0@alpha",
         "drupal/captcha": "^2.0",
+        "drupal/ckeditor5_plugin_pack": "^1.5",
+        "drupal/ckeditor5_premium_features": "^1.7",
         "drupal/cleaner": "^3.0@alpha",
         "drupal/color_field": "^3.0",
         "drupal/colorbox": "^2.1",
