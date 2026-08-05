@@ -1,0 +1,64 @@
+{
+    "name": "my-org/koha-drupal-site",
+    "description": "Custom Drupal installation for Koha integration",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "php": ">=8.3.0",
+        "composer/installers": "^2.0",
+        "drupal/core-composer-scaffold": "^11.0",
+        "drupal/core-recommended": "^11.0",
+        "drupal/classy": "^2.0",
+        "drupal/colorbox": "^2.0",
+        "drupal/flexslider": "^3.0@alpha",
+        "drupal/git_deploy": "^2.6",
+        "drupal/google_tag": "^2.0",
+        "drupal/jquery_ui": "^1.7",
+        "drupal/libraries": "^4.0",
+        "drupal/matomo": "^1.19",
+        "drupal/slick": "^3.0",
+        "drupal/slick_views": "^3.0",
+        "drupal/superfish": "^1.8",
+        "drupal/views_slideshow": "^5.0",
+        "drush/drush": "^13.0",
+        "mglaman/composer-drupal-lenient": "^2.0",
+        "drupal/module_missing_message_fixer": "^2.0",
+        "drupal/admin_toolbar": "^3.6",
+        "drupal/captcha": "^2.0",
+        "drupal/recaptcha": "^3.4",
+        "drupal/xmlsitemap": "^2.0",
+        "drupal/statistics": "^1.0",
+        "drupal/forum": "^1.1",
+        "drupal/paragraphs": "^1.23",
+        "drupal/entity_reference_revisions": "^1.14"
+    },
+    "conflict": {
+        "drupal/automatic_updates": "<4",
+        "drupal/project_browser": "<2.1",
+        "drush/drush": "<12.4.3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "symfony/runtime": true,
+            "drupal/core-composer-scaffold": true,
+            "composer/installers": true,
+            "mglaman/composer-drupal-lenient": true
+        }
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./"
+            }
+        }
+    }
+}
