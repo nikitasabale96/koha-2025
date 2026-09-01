@@ -17,7 +17,6 @@
         "drupal/classy": "^2.0",
         "drupal/colorbox": "^2.0",
         "drupal/flexslider": "^3.0@alpha",
-        "drupal/git_deploy": "^2.6",
         "drupal/google_tag": "^2.0",
         "drupal/jquery_ui": "^1.7",
         "drupal/libraries": "^4.0",
@@ -36,7 +35,17 @@
         "drupal/statistics": "^1.0",
         "drupal/forum": "^1.1",
         "drupal/paragraphs": "^1.23",
-        "drupal/entity_reference_revisions": "^1.14"
+        "drupal/entity_reference_revisions": "^1.14",
+        "drupal/linkchecker": "^2.1",
+        "drupal/adminimal_admin_toolbar": "^2.0@dev",
+        "drupal/color_field": "^3.0",
+        "drupal/google_analytics": "^4.0",
+        "drupal/gtm": "^1.10",
+        "drupal/masquerade": "^2.2",
+        "drupal/menu_per_role": "^2.0",
+        "drupal/migrate_plus": "^6.0",
+        "drupal/migrate_tools": "^6.1",
+        "drupal/spambot": "^1.4"
     },
     "conflict": {
         "drupal/automatic_updates": "<4",
@@ -59,6 +68,9 @@
             "locations": {
                 "web-root": "./"
             }
+        },
+        "drupal-lenient": {
+            "allowed-packages": ["drupal/advagg", "drupal/views_migration", "drupal/cleaner", "drupal/minifier_html"]
         }
     }
 }
